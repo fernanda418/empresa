@@ -1,30 +1,75 @@
 ﻿<!DOCTYPE html>
 
 <html lang="pt-br">
-    <head>
+
+<head>
 	<title> Programador Front-End </title>
-<meta charset="utf-8">
-    </head>
-
-    <body style="color:blue;">
-	<h1 align="center" style="line-height:50%;"> Programador Front-End 		</h1> 
-	<h3 align="center"> Desenvolvendo soluções desde 2000 </h3>
-	<td>
-		<table style=width:90%"align=center>
-		<td style="padding:40px">
+	<meta charset="utf-8">
+	<style>
 		
-	<hr>
-	<img src="imagens/negocio.jpg" alt="imagem de um negocio" 	height="220px" align="left">
-	</td> 
-	<td>
-		<p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac elit pellentesque, faucibus nisi non, bibendum arcu. Sed vehicula, nulla ut faucibus lacinia, purus ex congue nibh, in finibus lorem libero fringilla justo. Vestibulum nisl ipsum, vehicula ut eros sit amet, gravida tristique lorem. Suspendisse orci lectus, viverra sed arcu vitae, laoreet malesuada turpis. Donec gravida tellus vel lectus rutrum, non posuere metus tincidunt. Fusce ultrices placerat dignissim. Integer turpis justo, sagittis ac leo ac, placerat pharetra metus. Nam facilisis enim in tortor tincidunt facilisis. Praesent lacinia mauris in dolor.
-	</p>
+
+		body {
+			color: blue;
+		}
+
+		h1 {
+			line-height: 50%;
+			font-family: 'DynaPuff', cursive;
+			text-align: center;
+		}
+
+		h3 {
+			font-family: 'DynaPuff', cursive;
+			text-align: center;
+		}
+
+		table {
+			width: 90%;
+		}
+
+		td {
+			padding: 40px;
+		}
+
+		p {
+			text-align: center
+		}
+
+		.texto-dentro-da-tabela{
+			text-align: left;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1> Programador Front-End </h1>
+		<h3> Desenvolvendo soluções desde 2000 </h3>
+	</header>
 
 	<hr>
-	<p align="center"> Entre em contato e conheça as nossas soluções corporativas <br>
-	<a href="mailto: fernandab233@gmail.com">
-	CLique Aqui </a>
 
-    </body>
+	<main>
+		<table align="center">
+			<tr>
+				<td>
+					<img src="imagens/negocio.jpg" alt="imagem de um negocio" 	height="220px" align="left">
+				</td>
+				<td>
+					<p class="texto-dentro-da-tabela">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac elit pellentesque, faucibus nisi non, bibendum arcu. Sed vehicula, nulla ut faucibus lacinia, purus ex congue nibh, in finibus lorem libero fringilla justo. Vestibulum nisl ipsum, vehicula ut eros sit amet, gravida tristique lorem. Suspendisse orci lectus, viverra sed arcu vitae, laoreet malesuada turpis. Donec gravida tellus vel lectus rutrum, non posuere metus tincidunt. Fusce ultrices placerat dignissim. Integer turpis justo, sagittis ac leo ac, placerat pharetra metus. Nam facilisis enim in tortor tincidunt facilisis. Praesent lacinia mauris in dolor.
+					</p>
+				</td>
+			</tr>
+		</table>
+	</main>
+	<hr>
+	<footer>
+		<address>
+			<p> Entre em contato e conheça as nossas soluções corporativas
+				<a href="mailto: fernandab233@gmail.com"> <br> Clique Aqui </a>
+		</address>
+	</footer>
+</body>
+
 </html>
